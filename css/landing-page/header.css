@@ -1,0 +1,84 @@
+﻿header{
+    padding: 30px 20px;
+    font-size: 14PX;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header a {
+    color: #4C44C1;
+    text-decoration: none;
+}
+header .logo{
+    display: inline-block;
+    float: left;
+    margin-right: 28px;
+    bottom: -10px;
+    position: relative;
+}
+header .logo img{
+    width: 40px;
+}
+header .menu{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+header .menu a{
+    text-transform: uppercase;
+}
+header .header-buttons{
+    display: inline-block;
+    float: right;
+}
+header .header-buttons .blue-btn{
+    background: #6066F2;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    position: relative;
+    top: 20px;
+    padding: 14px 46px;
+    
+}
+header .header-buttons .blue-btn .fas{
+    margin-left: 15px;
+}
+header .header-buttons .orange-btn{
+    background: #FEA83B;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    position: relative;
+    top: 20px;
+    padding: 14px 46px;
+}
+@media only screen and (max-width: 1215px) {
+}
+/*Tablet Devices*/
+@media only screen and (max-width: 1023px) {
+}
+/*Mobile devices*/
+@media only screen and (max-width: 767px) {
+    header .header-buttons {
+        position: absolute;
+        display: inline-block;
+        float: right;
+        margin: 0 24px;
+    }
+    header .header-buttons .blue-btn {
+    background: #6066F2;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    position: relative;
+    top: 20px;
+    padding: 14px 23px;
+}
+}
