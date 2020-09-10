@@ -32,6 +32,7 @@ header .menu{
 }
 header .menu a{
     text-transform: uppercase;
+    margin: 0 5px 0 5px;
 }
 header .header-buttons{
     display: inline-block;
@@ -45,7 +46,7 @@ header .header-buttons .blue-btn{
     position: relative;
     top: 20px;
     padding: 14px 46px;
-    
+    margin-right: 5px;
 }
 header .header-buttons .blue-btn .fas{
     margin-left: 15px;
@@ -58,6 +59,7 @@ header .header-buttons .orange-btn{
     position: relative;
     top: 20px;
     padding: 14px 46px;
+    margin-left: 5px;
 }
 @media only screen and (max-width: 1215px) {
 }
