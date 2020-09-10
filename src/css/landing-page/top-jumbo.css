@@ -49,7 +49,7 @@
     display: inline-block;
     padding: 10px;
 }
-#top-jumbo .left-side .info-container .email-area .far {
+#top-jumbo .left-side .info-container .email-area svg {
         position: relative;
         font-size: 2rem;
         top: 7px;
@@ -91,7 +91,7 @@
         font-size: 3.5rem;
     }
 
-    #top-jumbo .left-side .info-container .email-area .far {
+    #top-jumbo .left-side .info-container .email-area svg {
         position: relative;
         top: 14px;
         float: left;
@@ -115,7 +115,6 @@
         width: 35%;
     }
 }
-}
 /*Tablet Devices*/
 @media only screen and (max-width: 1023px) {
     #top-jumbo{
@@ -136,7 +135,7 @@
     #top-jumbo .left-side .info-container h1{
         font-size: 3.5rem;
     }
-    #top-jumbo .left-side .info-container .email-area .far{
+    #top-jumbo .left-side .info-container .email-area svg{
         position: relative;
         top: 14px;
         float: left;
@@ -185,7 +184,7 @@
     #top-jumbo .left-side .info-container h1{
         font-size: 3.5rem;
     }
-    #top-jumbo .left-side .info-container .email-area .far{
+    #top-jumbo .left-side .info-container .email-area svg{
         position: relative;
         top: 14px;
         float: left;
