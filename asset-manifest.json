@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Headphones-Page/static/css/main.2b9685c3.chunk.css",
+    "main.js": "/Headphones-Page/static/js/main.b5df3343.chunk.js",
+    "main.js.map": "/Headphones-Page/static/js/main.b5df3343.chunk.js.map",
+    "runtime-main.js": "/Headphones-Page/static/js/runtime-main.095b9020.js",
+    "runtime-main.js.map": "/Headphones-Page/static/js/runtime-main.095b9020.js.map",
+    "static/js/2.85857900.chunk.js": "/Headphones-Page/static/js/2.85857900.chunk.js",
+    "static/js/2.85857900.chunk.js.map": "/Headphones-Page/static/js/2.85857900.chunk.js.map",
+    "index.html": "/Headphones-Page/index.html",
+    "precache-manifest.b2b4bd7e8093fa15282f85787825b4be.js": "/Headphones-Page/precache-manifest.b2b4bd7e8093fa15282f85787825b4be.js",
+    "service-worker.js": "/Headphones-Page/service-worker.js",
+    "static/css/main.2b9685c3.chunk.css.map": "/Headphones-Page/static/css/main.2b9685c3.chunk.css.map",
+    "static/js/2.85857900.chunk.js.LICENSE.txt": "/Headphones-Page/static/js/2.85857900.chunk.js.LICENSE.txt",
+    "static/media/large-headphone.png": "/Headphones-Page/static/media/large-headphone.ad93b255.png",
+    "static/media/logo.svg": "/Headphones-Page/static/media/logo.5d5d9eef.svg",
+    "static/media/pink-headphones.png": "/Headphones-Page/static/media/pink-headphones.c4ec6822.png",
+    "static/media/yellow-headphones.png": "/Headphones-Page/static/media/yellow-headphones.de0533f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.095b9020.js",
+    "static/js/2.85857900.chunk.js",
+    "static/css/main.2b9685c3.chunk.css",
+    "static/js/main.b5df3343.chunk.js"
+  ]
+}
