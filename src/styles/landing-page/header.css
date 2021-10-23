@@ -1,0 +1,150 @@
+﻿header {
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header a {
+  color: #4c44c1;
+  text-decoration: none;
+}
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+  bottom: -10px;
+  position: relative;
+}
+header .logo img {
+  width: 40px;
+}
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a {
+  text-transform: uppercase;
+  margin: 0 5px 0 5px;
+}
+header .header-buttons {
+  display: inline-block;
+  float: right;
+}
+header .header-buttons .blue-btn {
+  background: #6066f2;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 35px;
+  position: relative;
+  top: 20px;
+  padding: 14px 46px;
+  margin-right: 5px;
+}
+header .header-buttons .blue-btn .fas {
+  margin-left: 15px;
+}
+header .header-buttons .orange-btn {
+  background: #fea83b;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 35px;
+  position: relative;
+  top: 20px;
+  padding: 14px 46px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 1215px) {
+}
+/*Tablet Devices*/
+@media only screen and (max-width: 1023px) {
+}
+/*Mobile devices*/
+@media only screen and (max-width: 767px) {
+  /* header .header-buttons {
+    position: absolute;
+    display: inline-block;
+    float: right;
+    margin: 0 24px;
+  } */
+  header .header-buttons .blue-btn {
+    background: #6066f2;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    position: relative;
+    top: 20px;
+    padding: 14px 23px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    text-align: center;
+    /* background-color: grey; */
+    background: linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #ffffff 40%,
+      #8948f2 77%,
+      #e0a1df 100%
+    );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hamburger-react {
+    position: absolute !important;
+    top: 50px;
+    right: 10px;
+    z-index: 20;
+  }
+
+  .nav-menu .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-menu .menu a {
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 10px auto;
+  }
+
+  .nav-menu .header-buttons {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .nav-menu .header-buttons .blue-btn {
+    background: #6066f2;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    padding: 14px 46px;
+    margin-bottom: 10px;
+  }
+
+  .nav-menu .header-buttons .orange-btn {
+    background: #fea83b;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 35px;
+    padding: 14px 46px;
+  }
+}

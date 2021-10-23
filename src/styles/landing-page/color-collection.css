@@ -15,8 +15,14 @@
 
 #color-collection .left-side img{
     width: 80%;
+    width: 40.5rem;
     float: left;
     display: inline-block;
+    position: relative;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, 0%) rotate( 
+9deg);
 }
 
 #color-collection .right-side .swatch-area{
@@ -97,7 +103,8 @@
 }
 #color-collection .right-side .info-box p{
     color: #aaacaf;
-    font-size: .8rem;
+    /* font-size: .8rem; */
+    font-size: 1.2rem;
     margin: 40px 0;
 }
 #color-collection .right-side .info-box a{
@@ -150,14 +157,24 @@
 /*Tablet Devices*/
 @media only screen and (max-width: 1023px) {
 }
+
+@media only screen and (max-width: 850px) {
+    #color-collection .left-side img {
+        width: 36.5rem;
+    }
+}
 /*Mobile devices*/
 @media only screen and (max-width: 767px) {
     #color-collection .left-side{
-        width: 100%;
+        /* width: 100%;
         text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); */
+        display: none;
     }
     #color-collection .left-side img{
-        float: none;
+        float: inherit;
     }
     #color-collection .right-side {
         width: 100%;
@@ -196,5 +213,10 @@
         width: 20px;
         height: 500px;
         border-radius: 40px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    #color-collection .left-side img {
+        width: 100%;
     }
 }
